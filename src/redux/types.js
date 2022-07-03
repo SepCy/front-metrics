@@ -1,0 +1,66 @@
+// Authentication actions
+export const USER_LOADING = "USER_LOADING";
+export const USER_LOADED = "USER_LOADED";
+export const LOADING = "LOADING";
+
+// Login Users actions
+export const LOGIN = "LOGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT = "LOGOUT";
+export const LOGOUT_SUCCESS = "LOGOUT_SUCCESS";
+
+// Registering users actions
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+// Authentication errors actions
+export const AUTH_ERROR = "AUTH_ERROR";
+export const GET_ERRORS = "GET_ERRORS";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+
+//subscribe actions
+
+export const GET_SUBSCRIPTION_LOADING_PREMIUM =
+  "GET_SUBSCRIPTION_LOADING_PREMIUM";
+export const GET_SUBSCRIPTION_LOADING_OWNER = "GET_SUBSCRIPTION_LOADING_OWNER";
+export const GET_SUBSCRIPTION = "GET_SUBSCRIPTION";
+export const GET_SUBSCRIPTION_TYPE = "GET_SUBSCRIPTION_TYPE";
+export const SUBSCRIPTION_SUCCESS = "SUBSCRIPTION_SUCCESS";
+export const SUBSCRIPTION_FAIL = "SUBSCRIPTION_FAIL";
+
+// Following a station
+
+export const FOLLOW_LOADING = "FOLLOW_LOADING";
+export const FOLLOW_SUCCESS = "FOLLOW_SUCCESS";
+export const FOLLOW_FAIL = "FOLLOW_FAIL";
+export const UNFOLLOW_SUCCESS = "UNFOLLOW_SUCCESS";
+export const UNFOLLOW_FAIL = "UNFOLLOW_FAIL";
+
+// Search bar
+export const SEARCH_LOADING = "SEARCH_LOADING";
+export const GET_SEARCH_VALUE_ON_TYPE = "GET_SEARCH_VALUE_ON_TYPE";
+export const SEARCHED_VALUE = "SEARCHED_VALUE";
+export const GET_SEARCHED_VALUES = "GET_SEARCHED_VALUES";
+
+// Map actions
+
+export const SET_VIEWPORT = "SET_VIEWPORT";
+export const SEARCH_VIEWPORT = "SEARCH_VIEWPORT";
+
+// Adding modifying and deleting a station
+export const CLEAR_ERROR_MESSAGES = "CLEAR_ERROR_MESSAGES";
+
+export const STATION_LOADING = "STATION_LOADING";
+export const ADD_STATION_SUCCESS = "ADD_STATION_SUCCESS";
+export const ADD_STATION_FAIL = "ADD_STATION_FAIL";
+export const DELETE_STATION_SUCCESS = "DELETE_STATION_SUCCESS";
+export const DELETE_STATION_FAIL = "DELETE_STATION_FAIL";
+export const MODIFY_STATION_SUCCESS = "MODIFY_STATION_SUCCESS";
+export const MODIFY_STATION_FAIL = "MODIFY_STATION_FAIL";
+export const LOAD_FOLLOWED = "LOAD_FOLLOWED";
+export const GET_SELECTED_ID = "GET_SELECTED_ID";
+export const LOAD_STATIONS = "LOAD_STATIONS";
+export const STATIONS_LOADED = "STATIONS_LOADED";
+export const STATIONS_LOADING_FAIL = "STATIONS_LOADING_FAIL";
+export const CLEAR_SELECTED_ID = "CLEAR_SELECTED_ID";
